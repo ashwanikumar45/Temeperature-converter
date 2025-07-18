@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Temperature Converter</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="converter">
+            <input type="number" id="inputTemp" placeholder="Enter temperature">
+            <select id="inputUnit">
+                <option value="C">°C</option>
+                <option value="F">°F</option>
+                <option value="K">K</option>
+            </select>
+            <span class="arrow"> → </span>
+            <select id="outputUnit">
+                <option value="C">°C</option>
+                <option value="F">°F</option>
+                <option value="K">K</option>
+            </select>
+            <div class="result" id="result"></div>
+        </div>
+        <button id="convertBtn">Convert</button>
+    </div>
+    <script src="/JAVASCRIPT/app.js"></script>
+</body>
+</html>
